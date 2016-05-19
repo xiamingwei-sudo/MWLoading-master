@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MWLoadingImagView.h"
 
 @interface ViewController ()
 
@@ -22,6 +23,18 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)start:(id)sender {
+    
+    MWLoadingImagView *meView = [MWLoadingImagView instantiateFromNib];
+    [meView show];
+    
+    double delayTime = dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC));
+    
+   
+    [meView close];
+    
+    
 }
 
 @end

@@ -15,6 +15,8 @@
 		2073D5E21CEDA6410086A7BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2073D5E01CEDA6410086A7BF /* LaunchScreen.storyboard */; };
 		2073D5ED1CEDA6410086A7BF /* MWLoading_MasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2073D5EC1CEDA6410086A7BF /* MWLoading_MasterTests.m */; };
 		2073D5F81CEDA6410086A7BF /* MWLoading_MasterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2073D5F71CEDA6410086A7BF /* MWLoading_MasterUITests.m */; };
+		2073D6071CEDA69B0086A7BF /* MWLoadingImagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2073D6061CEDA69B0086A7BF /* MWLoadingImagView.m */; };
+		2073D6091CEDA6BC0086A7BF /* MWLoadingImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2073D6081CEDA6BC0086A7BF /* MWLoadingImageView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		2073D5F31CEDA6410086A7BF /* MWLoading-MasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MWLoading-MasterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2073D5F71CEDA6410086A7BF /* MWLoading_MasterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWLoading_MasterUITests.m; sourceTree = "<group>"; };
 		2073D5F91CEDA6410086A7BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2073D6051CEDA69B0086A7BF /* MWLoadingImagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWLoadingImagView.h; sourceTree = "<group>"; };
+		2073D6061CEDA69B0086A7BF /* MWLoadingImagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWLoadingImagView.m; sourceTree = "<group>"; };
+		2073D6081CEDA6BC0086A7BF /* MWLoadingImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MWLoadingImageView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,9 @@
 		2073D5D11CEDA6410086A7BF /* MWLoading-Master */ = {
 			isa = PBXGroup;
 			children = (
+				2073D6051CEDA69B0086A7BF /* MWLoadingImagView.h */,
+				2073D6061CEDA69B0086A7BF /* MWLoadingImagView.m */,
+				2073D6081CEDA6BC0086A7BF /* MWLoadingImageView.xib */,
 				2073D5D51CEDA6410086A7BF /* AppDelegate.h */,
 				2073D5D61CEDA6410086A7BF /* AppDelegate.m */,
 				2073D5D81CEDA6410086A7BF /* ViewController.h */,
@@ -246,6 +254,7 @@
 				2073D5E21CEDA6410086A7BF /* LaunchScreen.storyboard in Resources */,
 				2073D5DF1CEDA6410086A7BF /* Assets.xcassets in Resources */,
 				2073D5DD1CEDA6410086A7BF /* Main.storyboard in Resources */,
+				2073D6091CEDA6BC0086A7BF /* MWLoadingImageView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2073D5DA1CEDA6410086A7BF /* ViewController.m in Sources */,
+				2073D6071CEDA69B0086A7BF /* MWLoadingImagView.m in Sources */,
 				2073D5D71CEDA6410086A7BF /* AppDelegate.m in Sources */,
 				2073D5D41CEDA6410086A7BF /* main.m in Sources */,
 			);
